@@ -1,54 +1,85 @@
 body {
-   background-color: #441e13
+   background-color: #0000
   ;
 }
 
 div {
-  outline: yellow 1px solid;
+
 }
 
 .logoContainer {
   max-width: 920px;
   margin-left:auto;
   margin-right:auto;
-  margin-top: 30px;
+  margin-top: 10px;
   overflow: hidden;
 }
 
 .logo {
-  width: 205px;
-  font-size: 2.5rem;
+  font: Verdana;
+  width: 1000px;
+  font-size: 7.0rem;
   font-weight: bold;
-  color: white;
-  float: left;
+  color: black;
+  float: none;
+
 }
 
 .slogan {
-  width: 350px;
+  width: 1000px;
   float: left;
   color: #a37b71;
-  margin-top: 15px;
+  margin-top: 5px;
+  font-style: oblique;
+  font-size: 3.0rem;
 }
 
 .nav {
 margin-top: 20px;
-width: 920px;
+width: 1000px;
 margin-left: auto;
 margin-right: auto;
-background-color: rgba(0,0,0,0.25);
+background-color: white;
+
 
 }
 
 
 .nav ol{
-padding: 35px;
-padding-top: 15px;
+padding: 10px;
+padding-top: 10px;
+font-size: 1.7rem;
+font-style: normal;
+color: #a37b71;
 }
 
 
 .nav li {
   display: block;
   float: left;
-  color: white;
+  color: black;
   padding: 0 15px;
 }
+
+
+
+.href {
+  margin-top: 5px;
+}
+
+.insta.jpg {
+float: left;
+width: 500px;
+height: 400px;
+}
+
+
+.frontrightgif {
+width: 5000px;
+height: auto;
+
+
+}
+
+
+
